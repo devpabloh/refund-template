@@ -75,7 +75,7 @@ function expenseAdd(newExpense){
     expenseInfo.append(expensiveName, expenseCategory)
 
     // Adiciona as informações no item.
-    expenseItem.append(expenseIcon)
+    expenseItem.append(expenseIcon, expenseInfo)
 
     // Adiciona o item na lista.
     expenseList.append(expenseItem)
